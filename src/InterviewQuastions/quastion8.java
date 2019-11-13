@@ -42,6 +42,22 @@ public class quastion8 {
 			
 		}
 		
+		
+		
+		int x=0;
+		int y=1;
+		int z;
+		
+		for(int i=0; i<=5; i++) {
+			
+			System.out.println(x+" ");
+			
+			z=x+y;
+			x=y;
+			y=z;
+		}
+		
+		
 	}	
 
 }

@@ -1,4 +1,4 @@
-package com.classStringManip15;
+package com.classStringManip16;
 
 public class StringManipulationsTask {
 
