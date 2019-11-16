@@ -7,64 +7,58 @@ public class umbrella {
 	public static void main(String[] args) {
 		
 		
-		
-//		for(int i=10; i>=1; i--) {
-//			System.out.println(i);
-//		}
-//		
-//		for(int i=20; i>=1; i--) {
-//			if(i%2==0)
-//			System.out.println(i);
-//		}
-		
-//		int sumEvens=0;
-//		int sumOdds=0;
-//		
-//		for(int i=0; i<=20; i++) {
-//			
-//			if(i%2==0) {
-//			sumEvens=sumEvens+i;
-//			
-//			}else {
-//				sumOdds=sumOdds+i;
-//			}
-//			
-//		  }
-//		System.out.println(sumEvens);
-//		System.out.println(sumOdds);
-		
-		
-//		for(int i=0; i<=20; i++) {
-//			if(i>=5&&i<=15 ) {
-//			continue;
-//			}
-//			System.out.println(i);
-//		}
-//		
-//		for(int i=0; i<=50; i++) {
-//			if(i%3==0) {
-//				
-//			System.out.println(i);
-//			
-//			}
-//			
-//			
-//		}
-		String card;
+	
 		Scanner scan=new Scanner(System.in);
+//		System.out.println("please enter your grades");
+//		int quiz;
+//		int mid ;
+//		int last;
+//		
+//		quiz=scan.nextInt();
+//		mid=scan.nextInt();
+//		last=scan.nextInt();
+//		
+//		int ave=((quiz+mid+last)/3);
+//		
+//		System.out.println("your ave is "+ave+ " and your grade is ");
+//		
+//		if(ave>=90) {
+//			System.out.println('A');
+//		}else if(ave<90 && ave>=70) {
+//			System.out.println('B');
+//		}else if(ave<70 && ave>=50) {
+//			System.out.println('C');
+//		}else {
+//			System.out.println('F');
+//		}
 		
-		for(int i=1; i<=10; i++){
-			System.out.println("apply for card");
-			card=scan.nextLine();
-			if(card.equals("yes")) {
-				break;
-			}
-			
+		System.out.println("what is the class mode today?");
+		
+		boolean isRain=true;
+		isRain=scan.nextBoolean();
+		
+		if(isRain) {
+			System.out.println("in class");
+			isRain=scan.nextBoolean();
+			System.out.println("what is the class mode today?");
+		}else {
+			System.out.println("online");
 		}
 		
-	}
 		
-}
+		
+
+		
+		}
+	
+	 }
+		
+			
+ 
+		
+	
+		
+
 	
 	
 
