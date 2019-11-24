@@ -7,7 +7,7 @@ public class quastion8 {
      //print out the first 10 element of the Fibonacci series
 	 // first way 	
 		
-		int a=1;
+		int a=0;
 		int b=1;
 		int c;
 		
@@ -32,7 +32,7 @@ public class quastion8 {
 		k=0;
 		l=1;
 		
-		for(int i=0; i<=11; i++) {
+		for(int i=0; i<=10; i++) {
 			System.out.print(k+" ");
 			
 

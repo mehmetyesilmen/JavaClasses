@@ -45,6 +45,42 @@ public class AllMethods {
 				isOdd=false;
 			}
 			return isOdd;
+			
+			
+			
 		}
-	
+		
+		String createEmail(String firstName, String lastName, String emailType ) {
+			String createEmail=(firstName+lastName+emailType);
+			return createEmail;
+			
+			
+		}
+		
+		boolean isPrime(int num) {
+			boolean isPrime=true;
+			if(num%1==0 && num%num==0) {
+				isPrime=true;
+			}else {
+				isPrime=false;
+			}
+			
+			return isPrime;
+			
+		}
+		
+		void getGrade(int score) {
+			if(score>90) {
+				score='A';
+			}else if(score>80) {
+				score='B';
+			}else if(score>70) {
+				score='C';
+			}else if(score>50) {
+				score='C';
+			}else {
+				score='F';
+			}
+		}//return getGrade;
+		
 }

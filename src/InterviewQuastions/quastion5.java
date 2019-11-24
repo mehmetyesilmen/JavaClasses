@@ -57,12 +57,23 @@ public class quastion5 {
 		System.out.println("======================");
 		
 		String mehmet ="Today is java class";
-		char [] charArray=mehmet.toCharArray();
-		for(int i=charArray.length-1; i>=0; i--) {
-			System.out.print(charArray[i]);
+		char [] ch=mehmet.toCharArray();
+		for(int i=ch.length-1; i>=0; i--) {
+			System.out.println(ch[i]);
 			
 		}
 		
+        String km="I am going to school";
+		
+		String rever="";
+		
+		String [] arr=km.split(" ");
+		
+		for(int i=arr.length-1; i>=0; i--) {
+			
+			rever=rever+arr[i]+" ";
+		}
+		System.out.print(rever);
 	}
 	
 }

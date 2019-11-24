@@ -1,25 +1,41 @@
 package InterviewQuastions;
 
 public class quastion4 {
+	
+	String str(String reversed) {
+		
+		
+		return "mehmet";
+	}
+	
+	public boolean str2(String org) {
+		String org1="mahham";
+		String rev="";
+		boolean pol=true;
+		
+		for(int i=org1.length()-1; i>=0; i--) {
+			rev=rev+org1.charAt(i);
+			if(org.equals(rev)) {
+				pol=true;
+			}else {
+				pol=false;
+			}
+		}	
 
+		return pol;
+	}
+	
 	public static void main(String[] args) {
 		
+		quastion4 obj=new quastion4();
 		
-//		4.How to find out the part of the string from a string? 
-//		What is substring? Find number of words in string?
+		String str1=obj.str("mehmet");		
+		System.out.println(str1);
 		
-		String str= "I am going to school";
-		
-		System.out.println(str.substring(2,10));
-		
-		//Step 1-split based on the space -->arrayof the string
-		
-		//Step 2-find the length of an array
+		boolean b=obj.str2("mahham");
+		System.out.println(b);
 		
 		
-		String [] word=str.split(" ");
-		
-		System.out.println(word.length);
 		
 	
 
